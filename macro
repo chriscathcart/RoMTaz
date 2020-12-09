@@ -45,7 +45,7 @@ Step 1 - Make the macro
 /run CompleteQuest();
 
 - Paste it into the newely opened window called "Macro Contents" in game
-- Find the word DUMMYSPELLNAME and replace it with the spell you want to kill the practice targets with
+- Find the word DUMMYSPELLNAME and replace it with the spell you want to kill the practice targets with (preferably an instant-cast, low cooldown spell) (you can extent the wait time right under the spell name if it is a longer cast to keep the macro working)
 - Press save at the bottom 
 - Place the macro into your hotbar
 
