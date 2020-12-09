@@ -1,12 +1,17 @@
-Step 0.5
+Step 0.5 - Expand your writable macro length
 
-- Install the extended macro icons addon which adds the capacity for the game to read and write macros longer than 255 characters from:
+- Download the extended macro icons addon which adds the capacity for the game to read and write macros longer than 255 characters from:
 
 https://www.curseforge.com/rom/addons/extendedmacroicons/download
 
+- Extract the zip file then open it and right click the sub-folder then press cut
+- Open your file explorer and navigate to your RoM folder
+- Open Interface -> Addons
+- Paste the sub-folder into Addons
+
 ______________________________________________________________
 
-Step 1-
+Step 1 - Make the macro
 
 - Get in game
 - Press escape
@@ -46,4 +51,16 @@ Step 1-
 
 ___________________________________________
 
+Step 2 - Set Taz in your first focus slot
+
+- Manually target Anthony Taz
+- Right click his health bar at the top of your screen
+- Click focus
+- Make sure he is in your first focus slot, if he isn't clear all of your other focuses then start from the top of Step 2 again
+____________________________________
+
+Step 3 - Gun those bitches down and make hella skrilla
+
+- Press the button you mapped the macro to until you run out of daily quests then use a daily quest ticket 
+- Repeat Step 3 until you get carpal tunnel and your eyes bleed
 
