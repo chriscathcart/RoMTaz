@@ -1,12 +1,19 @@
-Step 0.5 -
+Step 0.5
 
-Install the extended macro icons addon which adds the capacity for the game to read and write macros longer than 255 characters from:
+- Install the extended macro icons addon which adds the capacity for the game to read and write macros longer than 255 characters from:
 
 https://www.curseforge.com/rom/addons/extendedmacroicons/download
 
 ______________________________________________________________
 
-Step 1
+Step 1-
+
+- Get in game
+- Press escape
+- Press Macros
+- Click an empty slot
+- Press new
+- Copy the text below
 
 /run TargetUnit("focus1");
 /wait .1
@@ -22,7 +29,7 @@ Step 1
 /run ChoiceOption(1);
 /wait 2.5
 /run TargetNearestEnemy();
-/cast Warp Charge
+/cast DUMMYSPELLNAME
 /wait .3
 /run TargetUnit("focus1");
 /wait 1.4
@@ -31,3 +38,12 @@ Step 1
 /run OnClick_QuestListButton(3, 1)
 /wait .2
 /run CompleteQuest();
+
+- Paste it into the newely opened window called "Macro Contents" in game
+- Find the word DUMMYSPELLNAME and replace it with the spell you want to kill the practice targets with
+- Press save at the bottom 
+- Place the macro into your hotbar
+
+___________________________________________
+
+
