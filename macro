@@ -1,0 +1,33 @@
+Step 0.5 -
+
+Install the extended macro icons addon which adds the capacity for the game to read and write macros longer than 255 characters from:
+
+https://www.curseforge.com/rom/addons/extendedmacroicons/download
+
+______________________________________________________________
+
+Step 1
+
+/run TargetUnit("focus1");
+/wait .1
+/cast Attack
+/wait .3
+/run OnClick_QuestListButton(1, 1);
+/wait .2
+/run AcceptQuest();
+/run TargetUnit("focus1");
+/wait .1
+/cast Attack
+/wait .3
+/run ChoiceOption(1);
+/wait 2.5
+/run TargetNearestEnemy();
+/cast Warp Charge
+/wait .3
+/run TargetUnit("focus1");
+/wait 1.4
+/cast Attack
+/wait .2
+/run OnClick_QuestListButton(3, 1)
+/wait .2
+/run CompleteQuest();
