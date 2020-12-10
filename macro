@@ -24,27 +24,29 @@ Step 1 - Make the macro
 
 /run TargetUnit("focus1");
 /wait .1
-/cast Attack
+/script CastSpellByName("Attack")
 /wait .3
 /run OnClick_QuestListButton(1, 1);
 /wait .2
 /run AcceptQuest();
+/wait .2
 /run TargetUnit("focus1");
 /wait .1
-/cast Attack
+/script CastSpellByName("Attack")
 /wait .3
 /run ChoiceOption(1);
 /wait 2.5
 /run TargetNearestEnemy();
-/cast DUMMYSPELLNAME
+/script CastSpellByName("DUMMYSPELLNAME")
 /wait .3
 /run TargetUnit("focus1");
 /wait 1.4
-/cast Attack
+/script CastSpellByName("Attack")
 /wait .2
 /run OnClick_QuestListButton(3, 1)
 /wait .2
 /run CompleteQuest();
+
 
 - Paste it into the newely opened window called "Macro Contents" in game
 - Find the word DUMMYSPELLNAME and replace it with the spell you want to kill the practice targets with (preferably an instant-cast, low cooldown spell) (you can extend the wait time right under the spell name if it is a longer cast to keep the macro working)
